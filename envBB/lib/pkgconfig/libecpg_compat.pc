@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 12.2
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/home/jatin/anaconda3/envs/envBB/include
+Libs: -L/home/jatin/anaconda3/envs/envBB/lib -lecpg_compat
+Libs.private: -L/home/jatin/anaconda3/envs/envBB/lib -lm

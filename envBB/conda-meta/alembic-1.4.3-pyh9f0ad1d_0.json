@@ -1,0 +1,880 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "mako",
+    "python",
+    "python-dateutil",
+    "python-editor >=0.3",
+    "sqlalchemy >=1.1.0"
+  ],
+  "extracted_package_dir": "/home/jatin/anaconda3/pkgs/alembic-1.4.3-pyh9f0ad1d_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/alembic-1.4.3.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/alembic-1.4.3.dist-info/LICENSE",
+    "lib/python3.8/site-packages/alembic-1.4.3.dist-info/METADATA",
+    "lib/python3.8/site-packages/alembic-1.4.3.dist-info/RECORD",
+    "lib/python3.8/site-packages/alembic-1.4.3.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/alembic-1.4.3.dist-info/WHEEL",
+    "lib/python3.8/site-packages/alembic-1.4.3.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/alembic-1.4.3.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/alembic-1.4.3.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/alembic/__init__.py",
+    "lib/python3.8/site-packages/alembic/autogenerate/__init__.py",
+    "lib/python3.8/site-packages/alembic/autogenerate/api.py",
+    "lib/python3.8/site-packages/alembic/autogenerate/compare.py",
+    "lib/python3.8/site-packages/alembic/autogenerate/render.py",
+    "lib/python3.8/site-packages/alembic/autogenerate/rewriter.py",
+    "lib/python3.8/site-packages/alembic/command.py",
+    "lib/python3.8/site-packages/alembic/config.py",
+    "lib/python3.8/site-packages/alembic/context.py",
+    "lib/python3.8/site-packages/alembic/ddl/__init__.py",
+    "lib/python3.8/site-packages/alembic/ddl/base.py",
+    "lib/python3.8/site-packages/alembic/ddl/impl.py",
+    "lib/python3.8/site-packages/alembic/ddl/mssql.py",
+    "lib/python3.8/site-packages/alembic/ddl/mysql.py",
+    "lib/python3.8/site-packages/alembic/ddl/oracle.py",
+    "lib/python3.8/site-packages/alembic/ddl/postgresql.py",
+    "lib/python3.8/site-packages/alembic/ddl/sqlite.py",
+    "lib/python3.8/site-packages/alembic/op.py",
+    "lib/python3.8/site-packages/alembic/operations/__init__.py",
+    "lib/python3.8/site-packages/alembic/operations/base.py",
+    "lib/python3.8/site-packages/alembic/operations/batch.py",
+    "lib/python3.8/site-packages/alembic/operations/ops.py",
+    "lib/python3.8/site-packages/alembic/operations/schemaobj.py",
+    "lib/python3.8/site-packages/alembic/operations/toimpl.py",
+    "lib/python3.8/site-packages/alembic/runtime/__init__.py",
+    "lib/python3.8/site-packages/alembic/runtime/environment.py",
+    "lib/python3.8/site-packages/alembic/runtime/migration.py",
+    "lib/python3.8/site-packages/alembic/script/__init__.py",
+    "lib/python3.8/site-packages/alembic/script/base.py",
+    "lib/python3.8/site-packages/alembic/script/revision.py",
+    "lib/python3.8/site-packages/alembic/script/write_hooks.py",
+    "lib/python3.8/site-packages/alembic/templates/generic/README",
+    "lib/python3.8/site-packages/alembic/templates/generic/alembic.ini.mako",
+    "lib/python3.8/site-packages/alembic/templates/generic/env.py",
+    "lib/python3.8/site-packages/alembic/templates/generic/script.py.mako",
+    "lib/python3.8/site-packages/alembic/templates/multidb/README",
+    "lib/python3.8/site-packages/alembic/templates/multidb/alembic.ini.mako",
+    "lib/python3.8/site-packages/alembic/templates/multidb/env.py",
+    "lib/python3.8/site-packages/alembic/templates/multidb/script.py.mako",
+    "lib/python3.8/site-packages/alembic/templates/pylons/README",
+    "lib/python3.8/site-packages/alembic/templates/pylons/alembic.ini.mako",
+    "lib/python3.8/site-packages/alembic/templates/pylons/env.py",
+    "lib/python3.8/site-packages/alembic/templates/pylons/script.py.mako",
+    "lib/python3.8/site-packages/alembic/testing/__init__.py",
+    "lib/python3.8/site-packages/alembic/testing/assertions.py",
+    "lib/python3.8/site-packages/alembic/testing/env.py",
+    "lib/python3.8/site-packages/alembic/testing/exclusions.py",
+    "lib/python3.8/site-packages/alembic/testing/fixture_functions.py",
+    "lib/python3.8/site-packages/alembic/testing/fixtures.py",
+    "lib/python3.8/site-packages/alembic/testing/plugin/__init__.py",
+    "lib/python3.8/site-packages/alembic/testing/plugin/bootstrap.py",
+    "lib/python3.8/site-packages/alembic/testing/plugin/plugin_base.py",
+    "lib/python3.8/site-packages/alembic/testing/plugin/pytestplugin.py",
+    "lib/python3.8/site-packages/alembic/testing/requirements.py",
+    "lib/python3.8/site-packages/alembic/testing/util.py",
+    "lib/python3.8/site-packages/alembic/util/__init__.py",
+    "lib/python3.8/site-packages/alembic/util/compat.py",
+    "lib/python3.8/site-packages/alembic/util/exc.py",
+    "lib/python3.8/site-packages/alembic/util/langhelpers.py",
+    "lib/python3.8/site-packages/alembic/util/messaging.py",
+    "lib/python3.8/site-packages/alembic/util/pyfiles.py",
+    "lib/python3.8/site-packages/alembic/util/sqla_compat.py",
+    "lib/python3.8/site-packages/alembic/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/api.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/compare.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/render.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/rewriter.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/__pycache__/command.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/__pycache__/context.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/ddl/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/ddl/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/ddl/__pycache__/impl.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/ddl/__pycache__/mssql.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/ddl/__pycache__/mysql.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/ddl/__pycache__/oracle.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/ddl/__pycache__/postgresql.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/ddl/__pycache__/sqlite.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/__pycache__/op.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/operations/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/operations/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/operations/__pycache__/batch.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/operations/__pycache__/ops.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/operations/__pycache__/schemaobj.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/operations/__pycache__/toimpl.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/runtime/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/runtime/__pycache__/environment.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/runtime/__pycache__/migration.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/script/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/script/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/script/__pycache__/revision.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/script/__pycache__/write_hooks.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/templates/generic/__pycache__/env.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/templates/multidb/__pycache__/env.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/templates/pylons/__pycache__/env.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/__pycache__/assertions.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/__pycache__/env.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/__pycache__/exclusions.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/__pycache__/fixture_functions.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/__pycache__/fixtures.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/plugin/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/plugin/__pycache__/bootstrap.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/plugin/__pycache__/plugin_base.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/plugin/__pycache__/pytestplugin.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/__pycache__/requirements.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/testing/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/util/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/util/__pycache__/compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/util/__pycache__/exc.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/util/__pycache__/langhelpers.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/util/__pycache__/messaging.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/util/__pycache__/pyfiles.cpython-38.pyc",
+    "lib/python3.8/site-packages/alembic/util/__pycache__/sqla_compat.cpython-38.pyc",
+    "bin/alembic"
+  ],
+  "fn": "alembic-1.4.3-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/jatin/anaconda3/pkgs/alembic-1.4.3-pyh9f0ad1d_0",
+    "type": 1
+  },
+  "md5": "84c871138af479a1724d3c3634273dda",
+  "name": "alembic",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jatin/anaconda3/pkgs/alembic-1.4.3-pyh9f0ad1d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/alembic-1.4.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/alembic-1.4.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bc4006508b9459e2801ec5a0c1c513c894472568d49863bd319f389362818451",
+        "sha256_in_prefix": "bc4006508b9459e2801ec5a0c1c513c894472568d49863bd319f389362818451",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "site-packages/alembic-1.4.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "709c147f737dcdb3f3a2da161827cc33f88d4e28434f2f4b3d7f74fdfebe2c66",
+        "sha256_in_prefix": "709c147f737dcdb3f3a2da161827cc33f88d4e28434f2f4b3d7f74fdfebe2c66",
+        "size_in_bytes": 7011
+      },
+      {
+        "_path": "site-packages/alembic-1.4.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "59a9eebb22796aeb636c8433194935451a027c0f92f920e2d814d12cca280e37",
+        "sha256_in_prefix": "59a9eebb22796aeb636c8433194935451a027c0f92f920e2d814d12cca280e37",
+        "size_in_bytes": 9028
+      },
+      {
+        "_path": "site-packages/alembic-1.4.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/alembic-1.4.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "sha256_in_prefix": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/alembic-1.4.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "4245f845acf6e6ca6a71608e57f40ba5cd6cb0ec7153f033d18088cd4d29f765",
+        "sha256_in_prefix": "4245f845acf6e6ca6a71608e57f40ba5cd6cb0ec7153f033d18088cd4d29f765",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/alembic-1.4.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "8ce4a737fd9f854f31cc3439d2b74daf8db927c91ffdec6e63c1ab028d5d6b3f",
+        "sha256_in_prefix": "8ce4a737fd9f854f31cc3439d2b74daf8db927c91ffdec6e63c1ab028d5d6b3f",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/alembic-1.4.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "17029677956c3c50bc8908e9bb5bbd0a7f899cadfe575461502996ab3d5c97eb",
+        "sha256_in_prefix": "17029677956c3c50bc8908e9bb5bbd0a7f899cadfe575461502996ab3d5c97eb",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/alembic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7884709195b4638d9512b237b31ffad86f9419f9d9cc35820f9055a3326c622b",
+        "sha256_in_prefix": "7884709195b4638d9512b237b31ffad86f9419f9d9cc35820f9055a3326c622b",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "site-packages/alembic/autogenerate/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f7c599bc143793e71fa5ad46b15144ab42aa9b3975f943d80ad6aef6eae9b084",
+        "sha256_in_prefix": "f7c599bc143793e71fa5ad46b15144ab42aa9b3975f943d80ad6aef6eae9b084",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "site-packages/alembic/autogenerate/api.py",
+        "path_type": "hardlink",
+        "sha256": "060d699d433daa948693ab3118c698092304f116911f3dcae266f441aaf8a3a0",
+        "sha256_in_prefix": "060d699d433daa948693ab3118c698092304f116911f3dcae266f441aaf8a3a0",
+        "size_in_bytes": 17027
+      },
+      {
+        "_path": "site-packages/alembic/autogenerate/compare.py",
+        "path_type": "hardlink",
+        "sha256": "71106ded904546246386fa34a40dd7bee530d1839d999c32ff693fa49a1968bd",
+        "sha256_in_prefix": "71106ded904546246386fa34a40dd7bee530d1839d999c32ff693fa49a1968bd",
+        "size_in_bytes": 39009
+      },
+      {
+        "_path": "site-packages/alembic/autogenerate/render.py",
+        "path_type": "hardlink",
+        "sha256": "9bcbc4f30d57288f5aa1aaba7266f33b4a56876c209ca198e44e8cd18f1862ae",
+        "sha256_in_prefix": "9bcbc4f30d57288f5aa1aaba7266f33b4a56876c209ca198e44e8cd18f1862ae",
+        "size_in_bytes": 29117
+      },
+      {
+        "_path": "site-packages/alembic/autogenerate/rewriter.py",
+        "path_type": "hardlink",
+        "sha256": "ac4449ccf66dcf3b3dac703a5cbcfc33933d3d5107141acc67661904ed3d7fa1",
+        "sha256_in_prefix": "ac4449ccf66dcf3b3dac703a5cbcfc33933d3d5107141acc67661904ed3d7fa1",
+        "size_in_bytes": 5721
+      },
+      {
+        "_path": "site-packages/alembic/command.py",
+        "path_type": "hardlink",
+        "sha256": "0b4a97c9829715d4e4adc4a05e18154706b73568516555434652c7703fa2ed5b",
+        "sha256_in_prefix": "0b4a97c9829715d4e4adc4a05e18154706b73568516555434652c7703fa2ed5b",
+        "size_in_bytes": 18161
+      },
+      {
+        "_path": "site-packages/alembic/config.py",
+        "path_type": "hardlink",
+        "sha256": "60e4e9ada69c50499ec3126b8df09799171e932dfd00312c7eb1f9c68001721d",
+        "sha256_in_prefix": "60e4e9ada69c50499ec3126b8df09799171e932dfd00312c7eb1f9c68001721d",
+        "size_in_bytes": 20010
+      },
+      {
+        "_path": "site-packages/alembic/context.py",
+        "path_type": "hardlink",
+        "sha256": "84ad4024e417276f41867dbbe8661ca2cc5e1bba42e5a6514f913c7386cc2784",
+        "sha256_in_prefix": "84ad4024e417276f41867dbbe8661ca2cc5e1bba42e5a6514f913c7386cc2784",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "site-packages/alembic/ddl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "edcc244b3ebdb562956d4c5b1e91344833985206f14819152071d3c89d4eed5f",
+        "sha256_in_prefix": "edcc244b3ebdb562956d4c5b1e91344833985206f14819152071d3c89d4eed5f",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "site-packages/alembic/ddl/base.py",
+        "path_type": "hardlink",
+        "sha256": "b638f2bdac5b818daae4f3a6f0c104a863087501da523052ddd024379a9516b4",
+        "sha256_in_prefix": "b638f2bdac5b818daae4f3a6f0c104a863087501da523052ddd024379a9516b4",
+        "size_in_bytes": 6812
+      },
+      {
+        "_path": "site-packages/alembic/ddl/impl.py",
+        "path_type": "hardlink",
+        "sha256": "382f10ff3c463d1f17519df06ebd6d1839af510be18f07fba475356540942000",
+        "sha256_in_prefix": "382f10ff3c463d1f17519df06ebd6d1839af510be18f07fba475356540942000",
+        "size_in_bytes": 16847
+      },
+      {
+        "_path": "site-packages/alembic/ddl/mssql.py",
+        "path_type": "hardlink",
+        "sha256": "fcf3667899038f70ceda7eea85d4300bd4a385f274e145e316fe9ac62a533fbf",
+        "sha256_in_prefix": "fcf3667899038f70ceda7eea85d4300bd4a385f274e145e316fe9ac62a533fbf",
+        "size_in_bytes": 9360
+      },
+      {
+        "_path": "site-packages/alembic/ddl/mysql.py",
+        "path_type": "hardlink",
+        "sha256": "4e449ac51b38d6ad1384073004215180c2d231d888e2c5319606770166ee7e44",
+        "sha256_in_prefix": "4e449ac51b38d6ad1384073004215180c2d231d888e2c5319606770166ee7e44",
+        "size_in_bytes": 13862
+      },
+      {
+        "_path": "site-packages/alembic/ddl/oracle.py",
+        "path_type": "hardlink",
+        "sha256": "448686c495741a9e7cb6176b5d6f54a87fb88d891ef912a61e3ee719cf77f7a0",
+        "sha256_in_prefix": "448686c495741a9e7cb6176b5d6f54a87fb88d891ef912a61e3ee719cf77f7a0",
+        "size_in_bytes": 3810
+      },
+      {
+        "_path": "site-packages/alembic/ddl/postgresql.py",
+        "path_type": "hardlink",
+        "sha256": "6cacc464e19827c2dc7796e86ff1cc365a3ac679190a8b108250b68862191703",
+        "sha256_in_prefix": "6cacc464e19827c2dc7796e86ff1cc365a3ac679190a8b108250b68862191703",
+        "size_in_bytes": 17602
+      },
+      {
+        "_path": "site-packages/alembic/ddl/sqlite.py",
+        "path_type": "hardlink",
+        "sha256": "31249fe3d8400a44e59cafb3591a008f79e13ecb9e6586d88b98ad202c723fe1",
+        "sha256_in_prefix": "31249fe3d8400a44e59cafb3591a008f79e13ecb9e6586d88b98ad202c723fe1",
+        "size_in_bytes": 5090
+      },
+      {
+        "_path": "site-packages/alembic/op.py",
+        "path_type": "hardlink",
+        "sha256": "7e51ed72c56a383f9981928ada9bfe089e42c21f8a27ba6e314357ce2b21c4bc",
+        "sha256_in_prefix": "7e51ed72c56a383f9981928ada9bfe089e42c21f8a27ba6e314357ce2b21c4bc",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "site-packages/alembic/operations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9c96e6300c1aa54da9cb87c9e065016a7069f84317843c8c9e06fbd7b3481ccf",
+        "sha256_in_prefix": "9c96e6300c1aa54da9cb87c9e065016a7069f84317843c8c9e06fbd7b3481ccf",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "site-packages/alembic/operations/base.py",
+        "path_type": "hardlink",
+        "sha256": "67f30a8c1b856cd02a84bb6abcc41305ccbe98ab078cb1d983b0b8ec07cd9fe4",
+        "sha256_in_prefix": "67f30a8c1b856cd02a84bb6abcc41305ccbe98ab078cb1d983b0b8ec07cd9fe4",
+        "size_in_bytes": 17959
+      },
+      {
+        "_path": "site-packages/alembic/operations/batch.py",
+        "path_type": "hardlink",
+        "sha256": "d9cd89cbb60ab16ac3c7b593e0c962164738993983d3f9de585fe124171651a8",
+        "sha256_in_prefix": "d9cd89cbb60ab16ac3c7b593e0c962164738993983d3f9de585fe124171651a8",
+        "size_in_bytes": 19965
+      },
+      {
+        "_path": "site-packages/alembic/operations/ops.py",
+        "path_type": "hardlink",
+        "sha256": "2d82dc6b3fdd5469a1621525ef027714b53c483fc07feaf39096e233e7d2d096",
+        "sha256_in_prefix": "2d82dc6b3fdd5469a1621525ef027714b53c483fc07feaf39096e233e7d2d096",
+        "size_in_bytes": 83044
+      },
+      {
+        "_path": "site-packages/alembic/operations/schemaobj.py",
+        "path_type": "hardlink",
+        "sha256": "84552d53357e91212af539d7a87e88ca033e682701e558c8a549b4900298184e",
+        "sha256_in_prefix": "84552d53357e91212af539d7a87e88ca033e682701e558c8a549b4900298184e",
+        "size_in_bytes": 5736
+      },
+      {
+        "_path": "site-packages/alembic/operations/toimpl.py",
+        "path_type": "hardlink",
+        "sha256": "a780ae5581ca78989431ba18feec46d7f03c9570938848e3442297a02b8daf53",
+        "sha256_in_prefix": "a780ae5581ca78989431ba18feec46d7f03c9570938848e3442297a02b8daf53",
+        "size_in_bytes": 5716
+      },
+      {
+        "_path": "site-packages/alembic/runtime/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/alembic/runtime/environment.py",
+        "path_type": "hardlink",
+        "sha256": "975120022297f643bb99a9bdc2b82943dd17d6a1960ae0b8b77c4e09f60dedb5",
+        "sha256_in_prefix": "975120022297f643bb99a9bdc2b82943dd17d6a1960ae0b8b77c4e09f60dedb5",
+        "size_in_bytes": 37862
+      },
+      {
+        "_path": "site-packages/alembic/runtime/migration.py",
+        "path_type": "hardlink",
+        "sha256": "972da63dd00fdcd0cfe3eb3ab388b86af900e683abd751004a1d57f2a1378639",
+        "sha256_in_prefix": "972da63dd00fdcd0cfe3eb3ab388b86af900e683abd751004a1d57f2a1378639",
+        "size_in_bytes": 42472
+      },
+      {
+        "_path": "site-packages/alembic/script/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4b19a83e59d20cb156ffda7e3931bec9a7afefa3a4ed38b237abb64c029cce45",
+        "sha256_in_prefix": "4b19a83e59d20cb156ffda7e3931bec9a7afefa3a4ed38b237abb64c029cce45",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/alembic/script/base.py",
+        "path_type": "hardlink",
+        "sha256": "59d638fbb468b6d5aec2fd3b01c381d3164ca5c3167f2ee2b2aea4aa6465a5c2",
+        "sha256_in_prefix": "59d638fbb468b6d5aec2fd3b01c381d3164ca5c3167f2ee2b2aea4aa6465a5c2",
+        "size_in_bytes": 31774
+      },
+      {
+        "_path": "site-packages/alembic/script/revision.py",
+        "path_type": "hardlink",
+        "sha256": "bff79305ec7085925852b95287f307f7b7d7056875c9905c3b6e606a73d02cb6",
+        "sha256_in_prefix": "bff79305ec7085925852b95287f307f7b7d7056875c9905c3b6e606a73d02cb6",
+        "size_in_bytes": 34453
+      },
+      {
+        "_path": "site-packages/alembic/script/write_hooks.py",
+        "path_type": "hardlink",
+        "sha256": "d217807a572a2369f8596e38d0ccf572a3e41d436f7ee4be99e333a623010dde",
+        "sha256_in_prefix": "d217807a572a2369f8596e38d0ccf572a3e41d436f7ee4be99e333a623010dde",
+        "size_in_bytes": 2768
+      },
+      {
+        "_path": "site-packages/alembic/templates/generic/README",
+        "path_type": "hardlink",
+        "sha256": "31595cf53626af9ed16e15c44fa43183209cc163fbc3ebcb904b22ac436a8884",
+        "sha256_in_prefix": "31595cf53626af9ed16e15c44fa43183209cc163fbc3ebcb904b22ac436a8884",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "site-packages/alembic/templates/generic/alembic.ini.mako",
+        "path_type": "hardlink",
+        "sha256": "c1ec4b6c8eb2d7df6aefb3c228900364099421752118186561432dfa1cf3c10d",
+        "sha256_in_prefix": "c1ec4b6c8eb2d7df6aefb3c228900364099421752118186561432dfa1cf3c10d",
+        "size_in_bytes": 2044
+      },
+      {
+        "_path": "site-packages/alembic/templates/generic/env.py",
+        "path_type": "hardlink",
+        "sha256": "2cdd3a5a41349e3d5118bfbe49bcd87f1e03468a52979836221bba9275093194",
+        "sha256_in_prefix": "2cdd3a5a41349e3d5118bfbe49bcd87f1e03468a52979836221bba9275093194",
+        "size_in_bytes": 2039
+      },
+      {
+        "_path": "site-packages/alembic/templates/generic/script.py.mako",
+        "path_type": "hardlink",
+        "sha256": "f3fc6003e826fce85e8673bb0a22228d68279b4d1996ccc41ed207ac0605265d",
+        "sha256_in_prefix": "f3fc6003e826fce85e8673bb0a22228d68279b4d1996ccc41ed207ac0605265d",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "site-packages/alembic/templates/multidb/README",
+        "path_type": "hardlink",
+        "sha256": "73b08d1e456f55226c199ef942572ea359d72902130eed16de14942f2cf5a568",
+        "sha256_in_prefix": "73b08d1e456f55226c199ef942572ea359d72902130eed16de14942f2cf5a568",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "site-packages/alembic/templates/multidb/alembic.ini.mako",
+        "path_type": "hardlink",
+        "sha256": "d5c8be1409af1fdf4f08e716c2af83f1f5ace07c765f13103ebfb65567b60502",
+        "sha256_in_prefix": "d5c8be1409af1fdf4f08e716c2af83f1f5ace07c765f13103ebfb65567b60502",
+        "size_in_bytes": 2138
+      },
+      {
+        "_path": "site-packages/alembic/templates/multidb/env.py",
+        "path_type": "hardlink",
+        "sha256": "90338e95bcc32dcd678456ec289f9b7256749a91232cc789752f46bbf1f9cd6a",
+        "sha256_in_prefix": "90338e95bcc32dcd678456ec289f9b7256749a91232cc789752f46bbf1f9cd6a",
+        "size_in_bytes": 4162
+      },
+      {
+        "_path": "site-packages/alembic/templates/multidb/script.py.mako",
+        "path_type": "hardlink",
+        "sha256": "934f49ef26177d717279d57a0f9560273b8f4313e760ac480f486e21a6c7e3ac",
+        "sha256_in_prefix": "934f49ef26177d717279d57a0f9560273b8f4313e760ac480f486e21a6c7e3ac",
+        "size_in_bytes": 923
+      },
+      {
+        "_path": "site-packages/alembic/templates/pylons/README",
+        "path_type": "hardlink",
+        "sha256": "82be0c4279ff49cbd5fe46ac3e95e0a3a9ed02d7085a63a581af6f5116e05302",
+        "sha256_in_prefix": "82be0c4279ff49cbd5fe46ac3e95e0a3a9ed02d7085a63a581af6f5116e05302",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "site-packages/alembic/templates/pylons/alembic.ini.mako",
+        "path_type": "hardlink",
+        "sha256": "8be34cc916bc8d9a17f3dadafa90c7757433b01deaed8bd04431536b3eb3d89c",
+        "sha256_in_prefix": "8be34cc916bc8d9a17f3dadafa90c7757433b01deaed8bd04431536b3eb3d89c",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "site-packages/alembic/templates/pylons/env.py",
+        "path_type": "hardlink",
+        "sha256": "559cae07422594b2eed62f2379cffe5a3e51cbb0f42a03abf1c48848b6052bff",
+        "sha256_in_prefix": "559cae07422594b2eed62f2379cffe5a3e51cbb0f42a03abf1c48848b6052bff",
+        "size_in_bytes": 2245
+      },
+      {
+        "_path": "site-packages/alembic/templates/pylons/script.py.mako",
+        "path_type": "hardlink",
+        "sha256": "f3fc6003e826fce85e8673bb0a22228d68279b4d1996ccc41ed207ac0605265d",
+        "sha256_in_prefix": "f3fc6003e826fce85e8673bb0a22228d68279b4d1996ccc41ed207ac0605265d",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "site-packages/alembic/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b1635fc16763fe00d1da7934f2503ccd9b6ca8b6df60c3d3db95b8249bbe8086",
+        "sha256_in_prefix": "b1635fc16763fe00d1da7934f2503ccd9b6ca8b6df60c3d3db95b8249bbe8086",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "site-packages/alembic/testing/assertions.py",
+        "path_type": "hardlink",
+        "sha256": "5a68e572a24fdc2fda7f8209c678994ac1b911eab142e73ed7d8bc593dc03745",
+        "sha256_in_prefix": "5a68e572a24fdc2fda7f8209c678994ac1b911eab142e73ed7d8bc593dc03745",
+        "size_in_bytes": 3095
+      },
+      {
+        "_path": "site-packages/alembic/testing/env.py",
+        "path_type": "hardlink",
+        "sha256": "03efb99e77a6562f269a29a437117f77676a0631a5d88395465507dc926f5992",
+        "sha256_in_prefix": "03efb99e77a6562f269a29a437117f77676a0631a5d88395465507dc926f5992",
+        "size_in_bytes": 10250
+      },
+      {
+        "_path": "site-packages/alembic/testing/exclusions.py",
+        "path_type": "hardlink",
+        "sha256": "a6902096fb701a0e38d84d05e933a6bae4e02d3fcd916b3799b43766ff2e3de5",
+        "sha256_in_prefix": "a6902096fb701a0e38d84d05e933a6bae4e02d3fcd916b3799b43766ff2e3de5",
+        "size_in_bytes": 14289
+      },
+      {
+        "_path": "site-packages/alembic/testing/fixture_functions.py",
+        "path_type": "hardlink",
+        "sha256": "14e85a1ca683b4d948b46232386eae546076a63e80a22e1096bf47fb13cf1756",
+        "sha256_in_prefix": "14e85a1ca683b4d948b46232386eae546076a63e80a22e1096bf47fb13cf1756",
+        "size_in_bytes": 2952
+      },
+      {
+        "_path": "site-packages/alembic/testing/fixtures.py",
+        "path_type": "hardlink",
+        "sha256": "3a374a1f346d6376c7917c1c75a875b531fbde16e465deadcee20052a4af98c1",
+        "sha256_in_prefix": "3a374a1f346d6376c7917c1c75a875b531fbde16e465deadcee20052a4af98c1",
+        "size_in_bytes": 7924
+      },
+      {
+        "_path": "site-packages/alembic/testing/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/alembic/testing/plugin/bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "e6c37a178389dd450d55478d07363e32337faf7b4e1f936b1b1e26689b910bd5",
+        "sha256_in_prefix": "e6c37a178389dd450d55478d07363e32337faf7b4e1f936b1b1e26689b910bd5",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "site-packages/alembic/testing/plugin/plugin_base.py",
+        "path_type": "hardlink",
+        "sha256": "1dcb3e38345bcd4485bed550ede88bfdde9b5db19e2eeb74f98d9740013020cc",
+        "sha256_in_prefix": "1dcb3e38345bcd4485bed550ede88bfdde9b5db19e2eeb74f98d9740013020cc",
+        "size_in_bytes": 3080
+      },
+      {
+        "_path": "site-packages/alembic/testing/plugin/pytestplugin.py",
+        "path_type": "hardlink",
+        "sha256": "d4c17986aef7fd78aef7bb1532eb92fae7b1d264afbe1b45661fc8a3a4099e43",
+        "sha256_in_prefix": "d4c17986aef7fd78aef7bb1532eb92fae7b1d264afbe1b45661fc8a3a4099e43",
+        "size_in_bytes": 7529
+      },
+      {
+        "_path": "site-packages/alembic/testing/requirements.py",
+        "path_type": "hardlink",
+        "sha256": "759508f8f855d9338fbb1159404500022bd7ca78ad8d6802909222a631b3fb5c",
+        "sha256_in_prefix": "759508f8f855d9338fbb1159404500022bd7ca78ad8d6802909222a631b3fb5c",
+        "size_in_bytes": 4136
+      },
+      {
+        "_path": "site-packages/alembic/testing/util.py",
+        "path_type": "hardlink",
+        "sha256": "b00ff86ff110d207f3d81a33030f9e3586a725805087ca0eeba88b31522ceedc",
+        "sha256_in_prefix": "b00ff86ff110d207f3d81a33030f9e3586a725805087ca0eeba88b31522ceedc",
+        "size_in_bytes": 2577
+      },
+      {
+        "_path": "site-packages/alembic/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1c23ef574729ca1748832551283b9820ffd2f44244d1a744f7b77ddb35bcd69f",
+        "sha256_in_prefix": "1c23ef574729ca1748832551283b9820ffd2f44244d1a744f7b77ddb35bcd69f",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "site-packages/alembic/util/compat.py",
+        "path_type": "hardlink",
+        "sha256": "9272448031ec05c503ce8b5812f836dd5d068f666f4bc8b47e3f08a46e2405e3",
+        "sha256_in_prefix": "9272448031ec05c503ce8b5812f836dd5d068f666f4bc8b47e3f08a46e2405e3",
+        "size_in_bytes": 10563
+      },
+      {
+        "_path": "site-packages/alembic/util/exc.py",
+        "path_type": "hardlink",
+        "sha256": "18177e170fa9bedb14360eb0aee6fbca1636bde9efd4c0f578cb8965e6c988c6",
+        "sha256_in_prefix": "18177e170fa9bedb14360eb0aee6fbca1636bde9efd4c0f578cb8965e6c988c6",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "site-packages/alembic/util/langhelpers.py",
+        "path_type": "hardlink",
+        "sha256": "05790161943187de896f607718a959be7849d1b05546e8dab4ba2c06555e6669",
+        "sha256_in_prefix": "05790161943187de896f607718a959be7849d1b05546e8dab4ba2c06555e6669",
+        "size_in_bytes": 9246
+      },
+      {
+        "_path": "site-packages/alembic/util/messaging.py",
+        "path_type": "hardlink",
+        "sha256": "afc9c09b0cdbbc698ef11b5dc6af9ae8425d109106d733f897479410c4f222d3",
+        "sha256_in_prefix": "afc9c09b0cdbbc698ef11b5dc6af9ae8425d109106d733f897479410c4f222d3",
+        "size_in_bytes": 2633
+      },
+      {
+        "_path": "site-packages/alembic/util/pyfiles.py",
+        "path_type": "hardlink",
+        "sha256": "9a970c553e9f55c4d22c5c41d9f583e91484c4c5ba8e4bf8a791560c317bc89b",
+        "sha256_in_prefix": "9a970c553e9f55c4d22c5c41d9f583e91484c4c5ba8e4bf8a791560c317bc89b",
+        "size_in_bytes": 3028
+      },
+      {
+        "_path": "site-packages/alembic/util/sqla_compat.py",
+        "path_type": "hardlink",
+        "sha256": "02a9ea35b3a7374852fd4d2a89812250031080adc7d4abd0d729c9cb1b5e306f",
+        "sha256_in_prefix": "02a9ea35b3a7374852fd4d2a89812250031080adc7d4abd0d729c9cb1b5e306f",
+        "size_in_bytes": 8825
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/compare.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/render.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/autogenerate/__pycache__/rewriter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/__pycache__/command.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/__pycache__/config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/__pycache__/context.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/ddl/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/ddl/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/ddl/__pycache__/impl.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/ddl/__pycache__/mssql.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/ddl/__pycache__/mysql.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/ddl/__pycache__/oracle.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/ddl/__pycache__/postgresql.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/ddl/__pycache__/sqlite.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/__pycache__/op.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/operations/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/operations/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/operations/__pycache__/batch.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/operations/__pycache__/ops.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/operations/__pycache__/schemaobj.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/operations/__pycache__/toimpl.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/runtime/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/runtime/__pycache__/environment.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/runtime/__pycache__/migration.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/script/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/script/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/script/__pycache__/revision.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/script/__pycache__/write_hooks.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/templates/generic/__pycache__/env.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/templates/multidb/__pycache__/env.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/templates/pylons/__pycache__/env.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/__pycache__/assertions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/__pycache__/env.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/__pycache__/exclusions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/__pycache__/fixture_functions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/__pycache__/fixtures.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/plugin/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/plugin/__pycache__/bootstrap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/plugin/__pycache__/plugin_base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/plugin/__pycache__/pytestplugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/__pycache__/requirements.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/testing/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/util/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/util/__pycache__/compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/util/__pycache__/exc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/util/__pycache__/langhelpers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/util/__pycache__/messaging.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/util/__pycache__/pyfiles.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/alembic/util/__pycache__/sqla_compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/alembic",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-forge/noarch::alembic==1.4.3=pyh9f0ad1d_0",
+  "sha256": "f7c31315a59fd4dcf6c2fb2c1a75b4b10efc4123094c8b78e67d17523136197a",
+  "size": 114173,
+  "subdir": "noarch",
+  "timestamp": 1599849290775,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/alembic-1.4.3-pyh9f0ad1d_0.tar.bz2",
+  "version": "1.4.3"
+}

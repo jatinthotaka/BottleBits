@@ -1,0 +1,130 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dnspython >=1.15.0",
+    "idna >=2.0.0",
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "/home/jatin/anaconda3/pkgs/email_validator-1.1.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/email_validator-1.1.2.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/email_validator-1.1.2.dist-info/LICENSE",
+    "lib/python3.8/site-packages/email_validator-1.1.2.dist-info/METADATA",
+    "lib/python3.8/site-packages/email_validator-1.1.2.dist-info/RECORD",
+    "lib/python3.8/site-packages/email_validator-1.1.2.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/email_validator-1.1.2.dist-info/WHEEL",
+    "lib/python3.8/site-packages/email_validator-1.1.2.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/email_validator-1.1.2.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/email_validator-1.1.2.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/email_validator/__init__.py",
+    "lib/python3.8/site-packages/email_validator/__pycache__/__init__.cpython-38.pyc",
+    "bin/email_validator"
+  ],
+  "fn": "email_validator-1.1.2-pyhd8ed1ab_0.tar.bz2",
+  "license": "CC0-1.0",
+  "license_family": "CC",
+  "link": {
+    "source": "/home/jatin/anaconda3/pkgs/email_validator-1.1.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b46687a1bdf66f1e7bd2f36fd068a74f",
+  "name": "email_validator",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jatin/anaconda3/pkgs/email_validator-1.1.2-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/email_validator-1.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/email_validator-1.1.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+        "sha256_in_prefix": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+        "size_in_bytes": 7048
+      },
+      {
+        "_path": "site-packages/email_validator-1.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b02879894a0d22f2ed372681fcbed48e91831c51357b9a2f17b94ecf004dae53",
+        "sha256_in_prefix": "b02879894a0d22f2ed372681fcbed48e91831c51357b9a2f17b94ecf004dae53",
+        "size_in_bytes": 17664
+      },
+      {
+        "_path": "site-packages/email_validator-1.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "445647f560477f513341804e0a188dbe854c1cf1c85507cd65979ebc9a91a23f",
+        "sha256_in_prefix": "445647f560477f513341804e0a188dbe854c1cf1c85507cd65979ebc9a91a23f",
+        "size_in_bytes": 1059
+      },
+      {
+        "_path": "site-packages/email_validator-1.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/email_validator-1.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "sha256_in_prefix": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/email_validator-1.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0db364ac7e3c8160c7a6309ea08ea32e5f3d22aed7e0ba37685ef394cd42a148",
+        "sha256_in_prefix": "0db364ac7e3c8160c7a6309ea08ea32e5f3d22aed7e0ba37685ef394cd42a148",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/email_validator-1.1.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "c0db3ef7c73b1d46796b7fefeb091385afbcb52167fd0175c3390b8d17da68c2",
+        "sha256_in_prefix": "c0db3ef7c73b1d46796b7fefeb091385afbcb52167fd0175c3390b8d17da68c2",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "site-packages/email_validator-1.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7d80ce49615991ee3abaded6a9d3802638e19693d801a3b03b022c877b3ca162",
+        "sha256_in_prefix": "7d80ce49615991ee3abaded6a9d3802638e19693d801a3b03b022c877b3ca162",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/email_validator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c81f3a00a447922322f55c31747f27b6a5569aa0c4285e6c6571ec1762e77799",
+        "sha256_in_prefix": "c81f3a00a447922322f55c31747f27b6a5569aa0c4285e6c6571ec1762e77799",
+        "size_in_bytes": 24304
+      },
+      {
+        "_path": "lib/python3.8/site-packages/email_validator/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/email_validator",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-forge/noarch::email_validator==1.1.2=pyhd8ed1ab_0",
+  "sha256": "7832f68ff3368d8d64e66a8c96c547ef4a4165c505d343faa525a599d70b48e4",
+  "size": 20483,
+  "subdir": "noarch",
+  "timestamp": 1605176073233,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/email_validator-1.1.2-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.1.2"
+}

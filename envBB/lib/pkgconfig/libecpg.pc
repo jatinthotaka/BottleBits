@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 12.2
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/home/jatin/anaconda3/envs/envBB/include
+Libs: -L/home/jatin/anaconda3/envs/envBB/lib -lecpg
+Libs.private: -L/home/jatin/anaconda3/envs/envBB/lib -lm

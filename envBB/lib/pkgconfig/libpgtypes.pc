@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.2
+Requires: 
+Requires.private: 
+Cflags: -I/home/jatin/anaconda3/envs/envBB/include
+Libs: -L/home/jatin/anaconda3/envs/envBB/lib -lpgtypes
+Libs.private: -L/home/jatin/anaconda3/envs/envBB/lib -lm
